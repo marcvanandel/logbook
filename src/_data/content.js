@@ -5,6 +5,23 @@ const header =
 const footer = "&copy; 2022 Marc van Andel - see <a href='https://github.com/marcvanandel/logbook'>GitHub repo</a>";
 const entries = [
   {
+    id: 'protocol-denken-birth',
+    categories: ['protocol-denken'],
+    color: 'blue',
+    faicon: 'network-wired',
+    date: '2020-02-15',
+    title: 'Netwerken en protocollen: Daar moet iets in zitten ...',
+    image: {
+      link: 'https://kadaster.nl',
+      src: 'https://www.kadaster.nl/image/layout_set_logo?img_id=5221262&t=1645190383860',
+      alt: 'Kadaster (NL)',
+      caption: 'Kadaster',
+    },
+    body: 
+    "Op een willekeurige donderdagmiddag, zomaar voor een whiteboard ... met Koen, Badreddine en Marc. Blockchains, netwerken, \
+    protocollen, peer-2-peer ... daar MOET toch iets in zitten?",
+  },
+  {
     id: 'koers-live',
     categories: ['events'],
     color: 'green',
