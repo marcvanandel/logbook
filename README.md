@@ -1,6 +1,8 @@
 # Marc's Logbook
 
-This is my personal logbook with entries I'm interested in. These are mainly technical and emerging and somehow related to government(s).
+This is my personal logbook with entries I'm interested in.
+These are mainly technical and emerging and somehow related to government(s).
+It is published at https://marcvanandel.github.io/logbook/
 
 This logbook is based on the great work of [Molly White](https://www.mollywhite.net/) with her [Static Timeline Webpage](https://github.com/molly/static-timeline-generator)
 
