@@ -1,45 +1,86 @@
-const header = 'Welcome to this wonderful example timeline.';
-const footer = 'A footer goes here.';
+const header = 
+  "<h1>Welkom in Marc's Logbook</h1> \
+   <p>Yup. Nederlands. Engels. Alles door elkaar. Veel content is namelijk Engels en tegelijk heeft het betrekking om Nederland en de Nederlandse samenleving en overheid. Dus Nederlandse posts en Engels posts ... en mixed &#128540;</p> \
+   <p>Dit logboek bevat posts over verschillende onderwerpen, meestal wel gerelateerd aan technologie en/of trends ... en met impact of relatie naar de digitale maatschappij.</p>";
+const footer = "&copy; 2022 Marc van Andel - see <a href='https://github.com/marcvanandel/logbook'>GitHub repo</a>";
 const entries = [
   {
-    id: 'cat',
-    categories: ['cat'],
+    id: 'koers-live',
+    categories: ['events'],
     color: 'green',
-    faicon: 'cat',
-    datetime: '2021-01-01 05:00',
-    title: 'Cats are very good',
+    faicon: 'layer-group',
+    date: '2018-11-15',
+    title: 'KOERS live !! &#127881;',
     image: {
-      link: 'http://placekitten.com',
-      src: 'http://placekitten.com/200/300',
-      alt: 'A placeholder kitten',
-      caption: 'Kitten!',
+      link: 'https://kadaster.nl',
+      src: 'https://www.kadaster.nl/image/layout_set_logo?img_id=5221262&t=1645190383860',
+      alt: 'Kadaster (NL)',
+      caption: 'Kadaster',
     },
-    body: "The best thing in the universe is a cardboard box. Chirp at birds catasstrophe for meowwww for hiding behind the couch until lured out by a feathery toy for morning beauty routine of licking self sugar, my siamese, stalks me (in a good way), day and night lick the other cats. Pushed the mug off the table shove bum in owner's face like camera lens or tickle my belly at your own peril i will pester for food when you're in the kitchen even if it's salad and grass smells good, licks your face, but hiiiiiiiiii feed me now.",
+    body: 
+    "Na vier jaar hard bouwen, testen, schaduw productie draaien, 2-wekelijks migreren, vele uitdagingen en nog meer overleggen ... \
+    is het nieuwe systeem voor het bijhouden van de BRK live!! &#127881; JAHOE! Wat een MEGA presetatie!",
+  },
+  {
+    id: 'koers-realisatie',
+    categories: ['events'],
+    color: 'green',
+    faicon: 'layer-group',
+    date: '2016-06-01',
+    title: 'KOERS realisatie',
+    image: {
+      link: 'https://kadaster.nl',
+      src: 'https://www.kadaster.nl/image/layout_set_logo?img_id=5221262&t=1645190383860',
+      alt: 'Kadaster (NL)',
+      caption: 'Kadaster',
+    },
+    body: 
+    "Het systeem waarin het Kadaster de BasisRegistratie Kadaster, de BRK, bijhoudt, wordt vernieuwd. Ik mag als software architect \
+    dit nieuwe systeem ontwerken. Event Sourcing is één van de 'core' architectuur patronen. Samen met 4 agile / DevOps teams realiseren \
+    we dit nieuwe systemen. We passen Continuous Delivery toe en bouwen een microservices systeem ... wat in voortbrenging toch nog wel \
+    de nodige monolitische aspecten heeft. Maar in ieder geval is de ontkoppeling door toepassing van CQRS (Command Query Responsibility \
+    Seggregation) wel echt top! Dit (architectuur) patroon is voorwaardelijk om Event Sourcing te kunnen toepassen. Al doende, zowel \
+    in uitleggen, toelichten en uitdenken als in realisatie, levert dit project veel kennis en begrip van Event Sourcing (en CQRS en \
+    Continuous Delivery en microservices en Kadaster domeinkennis &1F609; ). Het heeft mij nóg enthousiaster gemaakt over \
+    het 'denken in events'.",
     links: [
       {
-        href: 'https://en.wikipedia.org/wiki/Cat',
-        linkText: 'Cat',
+        href: 'https://levelup.gitconnected.com/paradigm-shift-from-single-model-to-commands-events-and-queries-ee68a97de9aa?sk=df5dcf092d31eb2da5f6a95940cbd74f',
+        linkText: 'Blog: Paradigm Shift from Single Model to Commands, Events and Queries - by me',
+      },
+      {
+        href: 'https://eventmodeling.org/',
+        linkText: 'EventModeling.org',
+      },
+      {
+        href: 'https://www.sciencedirect.com/science/article/pii/S0164121221000674',
+        linkText: 'Lessons Learned from the Industry',
       },
     ],
   },
   {
-    id: 'dog',
-    categories: ['dog'],
+    id: 'koers-het-plan',
+    categories: ['events'],
     color: 'green',
-    faicon: 'dog',
-    datetime: '2021-05-01 23:55',
-    title: 'Puppies are great too',
+    faicon: 'layer-group',
+    date: '2014-05-23',
+    title: 'De Nieuwe KOERS',
     image: {
-      link: 'http://place-puppy.com',
-      src: 'https://place-puppy.com/300x300',
-      alt: 'A placeholder puppy',
-      caption: 'Puppy!',
+      link: 'https://kadaster.nl',
+      src: 'https://www.kadaster.nl/image/layout_set_logo?img_id=5221262&t=1645190383860',
+      alt: 'Kadaster (NL)',
+      caption: 'Kadaster',
     },
-    body: 'Doggo ipsum sub woofer smol wow very biscit aqua doggo pupper dat tungg tho big ol pupper, very jealous pupper mlem heckin angery woofer very jealous pupper. Blep waggy wags long doggo, corgo. Tungg wow such tempt mlem very jealous pupper boofers lotsa pats, snoot smol big ol ruff doge super chub, long doggo heckin good boys and girls h*ck heck. Shoober blop many pats borkf, such treat. Big ol what a nice floof long water shoob wrinkler heck sub woofer, pupper porgo wow very biscit.',
+    body: 
+    "Het systeem waarin het Kadaster de BasisRegistratie Kadaster, de BRK, bijhoudt, is ruim 30 jaar in gebruik. Tijd voor vernieuwing! \
+    Hoezeer dat waar is, dat is geen eenvoudige taak. Dat wordt een open hart operatie terwijl de winkel open blijft. Als één van de \
+    oplossingen is gekozen voor 'Event Sourcing' als intern architectuur patroon. Als software architect heb ik die introductie gedaan \
+    en samen met de teams de realisatie daarvan. Dit heeft mij veel begrip van dit architectuurpatroon gegeven én zeer enthousiast gemaakt over \
+    het 'denken in events'.",
     links: [
       {
-        href: 'https://en.wikipedia.org/wiki/Dog',
-        linkText: 'Dog',
+        href: 'https://martinfowler.com/eaaDev/EventSourcing.html',
+        linkText: 'Martin Fowler | Event Sourcing',
       },
     ],
   },
