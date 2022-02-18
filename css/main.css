@@ -227,6 +227,9 @@ footer.page-footer {
 .timeline-icon.grey {
   background-color: #999999;
 }
+.timeline-icon.blue {
+  background-color: #0088DB;
+}
 
 /* RESPONSIVENESS */
 @media only screen and (min-width: 769px) {
@@ -362,6 +365,9 @@ footer.page-footer p,
   }
   .timeline-icon.grey {
     background-color: #666666;
+  }
+  .timeline-icon.blue {
+    background-color: #004975;
   }
 
   /* Arrows */
