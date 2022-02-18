@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+<title>Static timeline generator</title>
+
+<meta name="description" content="A super fancy timeline" />
+ 
+<meta name="author" content="Jane Doe" />
+
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto+Slab|Hind+Vadodara:400,600"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+  integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="icon" type="image/png" href="img/favicon.png" />
+<meta property="og:title" content="Static timeline generator" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="img/og-image.jpg" />
+
+</head>
+<body>
+    
+    <header class="page-header">
+        <p>
+        <h1>Welkom in Marc's Logbook</h1>    <p>Yup. Nederlands. Engels. Alles door elkaar. Veel content is namelijk Engels en tegelijk heeft het betrekking om Nederland en de Nederlandse samenleving en overheid. Dus Nederlandse posts en Engels posts ... en mixed &#128540;</p>    <p>Dit logboek bevat posts over verschillende onderwerpen, meestal wel gerelateerd aan technologie en/of trends ... en met impact of relatie naar de digitale maatschappij.</p>
+        <p>
+    </header>
+    
+    <section>
+        <div class="timeline-filter-wrapper">
+            <header class="timeline-filter">
+                <ul>
+                    <li>
+                        <input type="checkbox" name="filter-shortcut" id="all" checked /> <label for="all">All</label>
+                    </li>
+                    
+                        <li>
+                            <input type="checkbox" name="filter" id="events" checked /> <label for="events">Events </label>
+                        </li>
+                    
+                    </ul>
+                </header>
+            </div>
+            <article class="timeline">
+            
+                <div class="timeline-entry" data-category='events' aria-hidden="false">
+                    <div class="timeline-icon green">
+                        
+                            <i class="fas fa-layer-group" aria-hidden="true"></i>
+                        
+                    </div>
+                    <div class="timeline-description">
+                        <span class="timestamp"><time datetime="2018-11-15">November 15, 2018</time></span>
+                        <h2><a id="koers-live" href="#koers-live"><i class="fas fa-link"></i></a>KOERS live !! &#127881;</h2>
+                        
+                            <div class="captioned-image image-right">
+                                <a href="https://kadaster.nl">
+                                <img src="https://www.kadaster.nl/image/layout_set_logo?img_id=5221262&amp;t=1645190383860" alt="https://www.kadaster.nl/image/layout_set_logo?img_id=5221262&amp;t=1645190383860" />
+                                </a>
+                                
+                                    <span class="caption">Kadaster</span>
+                                
+                            </div>
+                        
+                        <p>
+                        Na vier jaar hard bouwen, testen, schaduw productie draaien, 2-wekelijks migreren, vele uitdagingen en nog meer overleggen ...     is het nieuwe systeem voor het bijhouden van de BRK live!! &#127881; JAHOE! Wat een MEGA presetatie!
+                        </p>
+                        
+                    </div>
+                </div>
+            
+                <div class="timeline-entry" data-category='events' aria-hidden="false">
+                    <div class="timeline-icon green">
+                        
+                            <i class="fas fa-layer-group" aria-hidden="true"></i>
+                        
+                    </div>
+                    <div class="timeline-description">
+                        <span class="timestamp"><time datetime="2016-06-01">June 1, 2016</time></span>
+                        <h2><a id="koers-realisatie" href="#koers-realisatie"><i class="fas fa-link"></i></a>KOERS realisatie</h2>
+                        
+                            <div class="captioned-image image-right">
+                                <a href="https://kadaster.nl">
+                                <img src="https://www.kadaster.nl/image/layout_set_logo?img_id=5221262&amp;t=1645190383860" alt="https://www.kadaster.nl/image/layout_set_logo?img_id=5221262&amp;t=1645190383860" />
+                                </a>
+                                
+                                    <span class="caption">Kadaster</span>
+                                
+                            </div>
+                        
+                        <p>
+                        Het systeem waarin het Kadaster de BasisRegistratie Kadaster, de BRK, bijhoudt, wordt vernieuwd. Ik mag als software architect     dit nieuwe systeem ontwerken. Event Sourcing is één van de 'core' architectuur patronen. Samen met 4 agile / DevOps teams realiseren     we dit nieuwe systemen. We passen Continuous Delivery toe en bouwen een microservices systeem ... wat in voortbrenging toch nog wel     de nodige monolitische aspecten heeft. Maar in ieder geval is de ontkoppeling door toepassing van CQRS (Command Query Responsibility     Seggregation) wel echt top! Dit (architectuur) patroon is voorwaardelijk om Event Sourcing te kunnen toepassen. Al doende, zowel     in uitleggen, toelichten en uitdenken als in realisatie, levert dit project veel kennis en begrip van Event Sourcing (en CQRS en     Continuous Delivery en microservices en Kadaster domeinkennis &1F609; ). Het heeft mij nóg enthousiaster gemaakt over     het 'denken in events'.
+                        </p>
+                        
+                            <ul>
+                                
+                                    <li>
+                                        <a href="https://levelup.gitconnected.com/paradigm-shift-from-single-model-to-commands-events-and-queries-ee68a97de9aa?sk=df5dcf092d31eb2da5f6a95940cbd74f" target="_blank">Blog: Paradigm Shift from Single Model to Commands, Events and Queries - by me</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://eventmodeling.org/" target="_blank">EventModeling.org</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.sciencedirect.com/science/article/pii/S0164121221000674" target="_blank">Lessons Learned from the Industry</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                </div>
+            
+                <div class="timeline-entry" data-category='events' aria-hidden="false">
+                    <div class="timeline-icon green">
+                        
+                            <i class="fas fa-layer-group" aria-hidden="true"></i>
+                        
+                    </div>
+                    <div class="timeline-description">
+                        <span class="timestamp"><time datetime="2014-05-23">May 23, 2014</time></span>
+                        <h2><a id="koers-het-plan" href="#koers-het-plan"><i class="fas fa-link"></i></a>De Nieuwe KOERS</h2>
+                        
+                            <div class="captioned-image image-right">
+                                <a href="https://kadaster.nl">
+                                <img src="https://www.kadaster.nl/image/layout_set_logo?img_id=5221262&amp;t=1645190383860" alt="https://www.kadaster.nl/image/layout_set_logo?img_id=5221262&amp;t=1645190383860" />
+                                </a>
+                                
+                                    <span class="caption">Kadaster</span>
+                                
+                            </div>
+                        
+                        <p>
+                        Het systeem waarin het Kadaster de BasisRegistratie Kadaster, de BRK, bijhoudt, is ruim 30 jaar in gebruik. Tijd voor vernieuwing!     Hoezeer dat waar is, dat is geen eenvoudige taak. Dat wordt een open hart operatie terwijl de winkel open blijft. Als één van de     oplossingen is gekozen voor 'Event Sourcing' als intern architectuur patroon. Als software architect heb ik die introductie gedaan     en samen met de teams de realisatie daarvan. Dit heeft mij veel begrip van dit architectuurpatroon gegeven én zeer enthousiast gemaakt over     het 'denken in events'.
+                        </p>
+                        
+                            <ul>
+                                
+                                    <li>
+                                        <a href="https://martinfowler.com/eaaDev/EventSourcing.html" target="_blank">Martin Fowler | Event Sourcing</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                </div>
+            
+            </article>
+        </section>
+        
+        <footer class="page-footer">
+            <p>
+            &copy; 2022 Marc van Andel - see <a href='https://github.com/marcvanandel/logbook'>GitHub repo</a>
+            </p>
+        </footer>
+        
+
+        <script src="js/classlist-polyfill.js"></script>
+        <script src="js/site-js.js"></script>
+    </body>
+</html>
