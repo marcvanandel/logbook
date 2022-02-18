@@ -1,0 +1,38 @@
+{
+  "name": "logbook",
+  "version": "0.1.0",
+  "description": "Marc's Logbook",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "npx sass ./src/css/:_site/css/ --watch",
+    "build:sass": "npx sass ./src/css/:_site/css/",
+    "serve": "npm run watch:sass & npx @11ty/eleventy --serve",
+    "build": "build:sass && npx @11ty/eleventy",
+    "prettier": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcvanandel/logbook.git"
+  },
+  "keywords": [
+    "logbook"
+  ],
+  "author": "Marc van Andel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcvanandel/logbook/issues"
+  },
+  "homepage": "https://github.com/marcvanandel/logbook#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "ejs": "^3.1.6",
+    "eleventy-plugin-dart-sass": "^1.0.3",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "moment": "^2.29.1",
+    "sass": "1.49.8"
+  }
+}
